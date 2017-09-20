@@ -1,0 +1,83 @@
+
+@{
+    ViewData["Title"] = "PDF Generator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="pull-left">
+                <h1>
+                    HTML to PDF Converter
+                   
+                </h1>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+   
+
+    <div class="row">  
+
+            <form asp-action="HtmltoPDF"
+                  asp-controller="Pdf" method="post">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="firstName">Url :</label>
+                        <input class="form-control" type="text" name="pageUrl" placeholder="Your url goes here" style="width:100%;" />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">File Name :</label>
+                        <input class="form-control" type="text" name="fileName" placeholder="Your filename goes here" style="width:100%;" />
+                    </div>
+                    <button class="btn btn-large btn-info" type="submit">Generate PDF Document</button>
+                    </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="firstName">Web Page Width:</label>
+                        <input class="form-control" type="text" name="sizeX" placeholder="1600" style="width:100%;" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">
+                                Web Page Height:
+                            </label>
+                            <input class="form-control" type="text"  name="sizeY" placeholder="1200" style="width:100%;" />
+
+                        </div>
+                  </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Pdf Page Size:</label>
+                        <select class="form-control" name="pageFormat">
+                            <option value="A1">A1</option>
+                            <option value="A2">A2</option>
+                            <option value="A3">A3</option>
+                            <option value="A4" selected>A4</option>
+                            <option value="A5">A5</option>
+                            <option value="Letter">Letter</option>
+                            <option value="Tabloid">Tabloid</option>
+                            <option value="Ledger">Ledger</option>
+                            <option value="Legal">Legal</option>
+                        </select>
+                        </div>
+                    <div class="form-group">
+                        <label>Pdf Page Orientation:</label>
+                        <select class="form-control" name="pageOrientation">
+                            <option value="portrait" selected>Portrait</option>
+                            <option value="landscape">Landscape</option>
+                        </select><br />
+                        <br />
+                        </div>
+                    </div>
+
+</form>
+        
+        </div>
+
+
+</div>

@@ -1,0 +1,10 @@
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\bin\Release\netcoreapp1.1\Converter.deps.json
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\bin\Release\netcoreapp1.1\Converter.runtimeconfig.json
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\bin\Release\netcoreapp1.1\Converter.runtimeconfig.dev.json
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\bin\Release\netcoreapp1.1\Converter.dll
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\bin\Release\netcoreapp1.1\Converter.pdb
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\obj\Release\netcoreapp1.1\Converter.csprojResolveAssemblyReference.cache
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\obj\Release\netcoreapp1.1\Converter.csproj.CoreCompileInputs.cache
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\obj\Release\netcoreapp1.1\Converter.AssemblyInfo.cs
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\obj\Release\netcoreapp1.1\Converter.dll
+E:\eVeliko\Work\Project_PDF_Converter\PDF_PhantomJS\Converter\Converter\obj\Release\netcoreapp1.1\Converter.pdb
